@@ -18,3 +18,7 @@ export async function signUp(userData) {
         throw new Error('Invalid Sign Up');
     }
 }
+
+export async function login(credentials){
+
+}
