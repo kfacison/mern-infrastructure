@@ -5,7 +5,7 @@ Clone this repo to provide the starter code for a comprehensive MERN-Stack proje
 Here’s the process to create a new MERN-Stack project:
 
 1. Clone the mern-infrastructure repo: ``git clone <url of mern-infrastructure> <name-of-project>``
->Note: that the folder created will be same as ``<name-of-project>`` instead of mern-infrastructure
+    >Note: that the folder created will be same as ``<name-of-project>`` instead of mern-infrastructure
 
 2. ``cd <name-of-project>``
 
