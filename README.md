@@ -10,6 +10,7 @@ Here’s the process to create a new MERN-Stack project:
 2. ``cd <name-of-project>``
 
 3. Install the Node modules: ``npm i``
+    >Note: Don't forget to run ``npm run build`` and to start your express server run ``nodemon server`` and for react run ``npm start``
 
 4. Create a .env (``touch .env``) and add entries for ``DATABASE_URL`` and ``SECRET``
 
