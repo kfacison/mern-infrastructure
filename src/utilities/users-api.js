@@ -20,6 +20,7 @@ export async function signUp(userData) {
 }
 
 export async function login(credentials){
+    //console.log(credentials)
     const res = await fetch(BASE_URL+"/login", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -29,6 +30,7 @@ export async function login(credentials){
     });
     // Check if request was successful
     if (res.ok) {
+        //console.log(res.json());
         // res.json() will resolve to the JWT
         return res.json();
     } else {

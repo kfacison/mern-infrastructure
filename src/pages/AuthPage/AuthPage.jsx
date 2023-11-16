@@ -17,7 +17,7 @@ export default function AuthPage({setUser}){
         { !authState &&
         <>
         <h2>Login</h2>
-        <LoginForm />
+        <LoginForm setUser={setUser}/>
         </>
         }
         </main>
